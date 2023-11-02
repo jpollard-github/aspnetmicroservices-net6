@@ -1,4 +1,4 @@
-version: '3.4'
+version: "3.4"
 
 services:
   catalogdb:
@@ -11,7 +11,7 @@ services:
     image: postgres
 
   orderdb:
-    image: mcr.microsoft.com/mssql/server:2017-latest
+    image: mcr.microsoft.com/mssql/server:2022-latest
 
   rabbitmq:
     image: rabbitmq:3-management-alpine
@@ -75,8 +75,3 @@ volumes:
   portainer_data:
   postgres_data:
   pgadmin_data:
-
-
-
-
-
